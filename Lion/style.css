@@ -26,7 +26,9 @@ body{
 }
 
 /* start nav */
-
+.header{
+  background-color: var(--main-color);
+}
 .header  .container{
   padding-left: 15px;
   padding-right: 15px;
@@ -357,7 +359,7 @@ body{
   text-align: center;
   justify-content: center;
 }
-.contact .contact-body p{
+.contact .contact-body .contact-p{
     font-size: 35px;
     font-weight: 800;
     color: var(--secondary-color);
@@ -402,11 +404,21 @@ body{
 }
 
 @media (max-width:720px) {
+  :root {
+    --main-color: #ffffff;
+    --main2-color: #eeeeeeee;
+    --secondary-color: #070707;
+    --secondary2-color: #2c4755;
+    --section-padding: 100px;
+    --section-background: #10cab7;
+    --main-size: 25px;
+  }
   .works{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding: 0px;
+    padding-top: var(--section-padding);
+    padding-bottom: var(--section-padding);
   }
 
   .Services .header-Services h1{
@@ -483,5 +495,14 @@ body{
   font-size: large;
   font-weight: bold;
   margin-top: 60px;
+}
+.contact .contact-body{
+  line-height: 15px;
+}
+.contact .contact-body .contact-p{
+  font-size: 26px;
+}
+.contact .contact-body .link{
+  font-size: 24px;
 }
 }
