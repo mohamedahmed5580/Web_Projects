@@ -807,13 +807,25 @@ position: relative;
 }
 .service .container .boxs{
   display: flex;
-    flex-direction: column;
-    text-align: center;
-    margin-bottom: 40px;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 40px;
 }
 .stats .container .box{
   flex-basis: 100%;
 }
-
+.skills .container{
+  display: block;
+}
+.skills .container .box .text p{
+  width: 300px;
+}
+.skills .container .box .person{
+  display: block;
+  padding-top: var(--section-padding);
+  padding-bottom: var(--section-padding);
+  padding-left: 0px;
+  padding-right: 0px;
+}
 
 }
