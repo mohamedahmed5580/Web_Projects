@@ -703,7 +703,7 @@ position: relative;
   margin-left: auto;
   text-transform: uppercase;
   cursor: pointer;
-  text-align: left;
+  text-align: center;
 
 }
 .contact .contact-content .into{
@@ -819,7 +819,6 @@ position: relative;
 }
 .skills .container .box .text p{
   width: 300px;
-  
 }
 .skills .container .box .person{
   display: block;
@@ -828,10 +827,45 @@ position: relative;
   padding-left: 0px;
   padding-right: 0px;
 }
-.skills .container .box  .person .text .p{
+.skills .container .box  .person .text .pp{
   text-align: center;
 }
 .skills .container .box .person .text{
   text-align: center;
 }
+.contact .contact-content form input[type="submit"]{
+  margin-left: auto;
+  margin-right: auto;
+}
+.contact .container .contact-content .info{
+  margin-top: 50px;
+  text-align: center;
+}
+.contact .contact-content .info address {
+  text-align: center;
+}
+.contact .contact-content .info h4{
+  text-align: center;
+}
+.contact .contact-content .info .phone{
+  text-align: center;
+}
+
+.subscribe .container {
+display: block;
+}
+
+.pricing .boxs {
+  display: block;
+}
+
+
+.pricing .boxs .box .text p {
+  margin-left: 0px;
+}
+
+.pricing .boxs .box .text {
+  border-bottom: 1px solid var(--section-background);
+}
+
 }
