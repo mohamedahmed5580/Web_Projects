@@ -819,6 +819,7 @@ position: relative;
 }
 .skills .container .box .text p{
   width: 300px;
+  
 }
 .skills .container .box .person{
   display: block;
@@ -827,5 +828,10 @@ position: relative;
   padding-left: 0px;
   padding-right: 0px;
 }
-
+.skills .container .box  .person .text .p{
+  text-align: center;
+}
+.skills .container .box .person .text{
+  text-align: center;
+}
 }
