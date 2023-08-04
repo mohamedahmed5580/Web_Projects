@@ -785,9 +785,7 @@ position: relative;
 }
 @media (max-width: 767px){
 .head{
-  background-color: #00000011;
   padding-top: 0px;
-  height: 97px;
 }
 .head .container{
   padding: 0;
@@ -897,6 +895,9 @@ display: block;
 
 .pricing .boxs .box .text {
   border-bottom: 1px solid var(--section-background);
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
 }
 
 }
