@@ -308,7 +308,7 @@ position: relative;
   transition: 0.3s;
 
 }
-.portfolio .image_boxs .box .i:hover{
+.portfolio .image_boxs .box:hover .i{
   transform: rotate(3deg) scale(1.1);
   transition: 0.3s;
 
