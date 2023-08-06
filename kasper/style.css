@@ -69,6 +69,8 @@ header .head .container::after {
 }
 .navbar-light .navbar-nav .nav-link {
   color: var(--main-color);
+  text-transform: uppercase;
+
   display: block;
   padding: 37px;
 }
